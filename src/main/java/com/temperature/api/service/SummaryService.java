@@ -1,43 +1,26 @@
 package com.temperature.api.service;
 
 import java.io.IOException;
-import java.math.BigInteger;
-import java.net.URI;
-import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
-import java.util.Map;
+
 import java.util.TimeZone;
 import java.util.function.BiPredicate;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
+
 
 import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
-import org.apache.commons.httpclient.Header;
 import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpException;
-import org.apache.commons.httpclient.NameValuePair;
+
 import org.apache.commons.httpclient.methods.GetMethod;
-import org.apache.commons.httpclient.methods.PostMethod;
-import org.apache.commons.httpclient.methods.RequestEntity;
 import org.apache.commons.httpclient.params.HttpMethodParams;
-import org.json.JSONArray;
 import org.json.JSONObject;
-import org.springframework.boot.autoconfigure.security.oauth2.resource.OAuth2ResourceServerProperties.Jwt;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.code.geocoder.Geocoder;
 import com.temperature.api.models.WeatherResponse;
 import com.temperature.api.models.WeatherSchema;
 
@@ -67,9 +50,6 @@ public class SummaryService {
 	
 	 final HttpClient client = new HttpClient();
 	 
-	
-	Map<String, String> getSlot = new HashMap<>();
-
 	 public WeatherResponse compareWeather() throws IOException, ParseException {
 		 
 		 WeatherSchema ahmedabadWeather = getAhmedbabProperties();
