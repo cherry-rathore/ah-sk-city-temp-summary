@@ -2,9 +2,9 @@
 
 + Local Endpoint - http://localhost:8090/analyze/summary
 + Parameters assuming for -
-  Warmer : City1 Temperature > City2 Temperature i.e. city1 is warm
-  Windier : City1 wind speed > City2 wind speed i.e. city1 is windier
-  Wetters: City1 Humidity > City2 Hunidity i.e. city1 is wetter
++ Warmer : City1 Temperature > City2 Temperature i.e. city1 is warm
++ Windier : City1 wind speed > City2 wind speed i.e. city1 is windier
++ Wetters: City1 Humidity > City2 Hunidity i.e. city1 is wetter
   
 + Sample Response - 
 
