@@ -80,7 +80,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
-                <mainClass>voyager.project.push.notification.Application</mainClass>
+                <mainClass>com.temperature.api.SkibbereenAhmedabadSummaryApplication</mainClass>
             </configuration>                   
         </plugin>
     </plugins>
