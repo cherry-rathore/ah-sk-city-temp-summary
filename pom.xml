@@ -68,6 +68,12 @@
 
   </dependencies>
   
+  
+  
+  <properties>
+  	<java.version>11</java.version>
+  	<maven.version>3.6.2</maven.version>
+  </properties>
 <build>
     <plugins>
         <plugin>
