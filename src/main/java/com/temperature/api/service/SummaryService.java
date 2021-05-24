@@ -5,11 +5,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-
 import java.util.TimeZone;
 import java.util.function.BiPredicate;
-
-
 import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
 import org.apache.commons.httpclient.HttpClient;
 
@@ -23,7 +20,6 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.temperature.api.models.WeatherResponse;
 import com.temperature.api.models.WeatherSchema;
-
 @Service
 public class SummaryService {
 	
