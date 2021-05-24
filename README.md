@@ -5,6 +5,10 @@
 + Warmer : City1 Temperature > City2 Temperature i.e. city1 is warm
 + Windier : City1 wind speed > City2 wind speed i.e. city1 is windier
 + Wetters: City1 Humidity > City2 Hunidity i.e. city1 is wetter
++ Units : Metric
++ Temperature - Celsius
++ Speed - metres per second
++ Humidity - Percentage
   
 + Sample Response - 
 
